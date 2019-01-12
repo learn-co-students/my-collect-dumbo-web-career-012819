@@ -1,11 +1,11 @@
 def my_collect (collection)
   i = 0
-  temp = ""
+  new_element = ""
   new_collection = []
   
   while i < collection.length
-    temp = yield collection[i]
-    new_collection << temp
+    new_element = yield collection[i]
+    new_collection << new_element
     i += 1
   end
   
